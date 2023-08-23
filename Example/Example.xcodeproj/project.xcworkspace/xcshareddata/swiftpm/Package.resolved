@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "wwjavascriptcontext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWJavaScriptContext",
+      "state" : {
+        "branch" : "main",
+        "revision" : "16c7c1ff460205f177aa62b881f1d982c8e05775"
+      }
+    },
+    {
+      "identity" : "wwprint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWPrint",
+      "state" : {
+        "revision" : "6b70fabaa1dbeac95b224384819e231a1220900a",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
