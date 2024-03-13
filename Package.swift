@@ -5,9 +5,18 @@ import PackageDescription
 
 let package = Package(
     name: "WWJavaScriptContext",
-    platforms: [.iOS(.v14)],
-    products: [.library(name: "WWJavaScriptContext", targets: ["WWJavaScriptContext"]),],
-    dependencies: [],
-    targets: [.target(name: "WWJavaScriptContext", dependencies: []),],
-    swiftLanguageVersions: [.v5]
+    platforms: [
+        .iOS(.v14)
+    ],
+    products: [
+        .library(name: "WWJavaScriptContext", targets: ["WWJavaScriptContext"]),
+    ],
+    dependencies: [
+    ],
+    targets: [
+        .target(name: "WWJavaScriptContext", resources: [.copy("Privacy")]),
+    ],
+    swiftLanguageVersions: [
+        .v5
+    ]
 )
