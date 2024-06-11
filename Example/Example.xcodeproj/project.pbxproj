@@ -336,6 +336,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = idv.william.Example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -356,6 +360,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = idv.william.Example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -390,7 +398,7 @@
 			repositoryURL = "https://github.com/William-Weng/WWPrint";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.3.1;
 			};
 		};
 		81422F342A95DA0A00772740 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */ = {
@@ -398,7 +406,7 @@
 			repositoryURL = "https://github.com/William-Weng/WWJavaScriptContext";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
