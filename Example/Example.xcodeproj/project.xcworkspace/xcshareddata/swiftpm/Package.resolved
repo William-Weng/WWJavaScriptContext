@@ -1,12 +1,13 @@
 {
+  "originHash" : "93238e8484b464be966cec9fa90b33b9da7492ab06b1fe89a8666b23448ec097",
   "pins" : [
     {
       "identity" : "wwjavascriptcontext",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWJavaScriptContext",
       "state" : {
-        "revision" : "1959bc6f5a18f12a60c294142aafca05b02fb087",
-        "version" : "1.0.3"
+        "revision" : "605cb0a6f03fd007661ecd2586328a23c6665ab1",
+        "version" : "1.0.4"
       }
     },
     {
@@ -19,5 +20,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

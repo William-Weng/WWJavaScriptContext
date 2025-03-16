@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D39FC022D86BB4D0030C843 /* WWJavaScriptContext in Frameworks */ = {isa = PBXBuildFile; productRef = 3D39FC012D86BB4D0030C843 /* WWJavaScriptContext */; };
+		3D39FC052D86BC020030C843 /* WWJavaScriptContext in Frameworks */ = {isa = PBXBuildFile; productRef = 3D39FC042D86BC020030C843 /* WWJavaScriptContext */; };
 		3DAC9C1927016E78006663C2 /* WWPrint in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAC9C1827016E78006663C2 /* WWPrint */; };
 		3DBCD87426F198EF00522E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD87326F198EF00522E3B /* AppDelegate.swift */; };
 		3DBCD87826F198EF00522E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD87726F198EF00522E3B /* ViewController.swift */; };
 		3DBCD87B26F198EF00522E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87926F198EF00522E3B /* Main.storyboard */; };
 		3DBCD87D26F198F300522E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87C26F198F300522E3B /* Assets.xcassets */; };
 		3DBCD88026F198F300522E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87E26F198F300522E3B /* LaunchScreen.storyboard */; };
-		81422F362A95DA0A00772740 /* WWJavaScriptContext in Frameworks */ = {isa = PBXBuildFile; productRef = 81422F352A95DA0A00772740 /* WWJavaScriptContext */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D39FC052D86BC020030C843 /* WWJavaScriptContext in Frameworks */,
 				3DAC9C1927016E78006663C2 /* WWPrint in Frameworks */,
-				81422F362A95DA0A00772740 /* WWJavaScriptContext in Frameworks */,
+				3D39FC022D86BB4D0030C843 /* WWJavaScriptContext in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +120,8 @@
 			name = Example;
 			packageProductDependencies = (
 				3DAC9C1827016E78006663C2 /* WWPrint */,
-				81422F352A95DA0A00772740 /* WWJavaScriptContext */,
+				3D39FC012D86BB4D0030C843 /* WWJavaScriptContext */,
+				3D39FC042D86BC020030C843 /* WWJavaScriptContext */,
 			);
 			productName = Example;
 			productReference = 3DBCD87026F198EF00522E3B /* Example.app */;
@@ -149,7 +152,7 @@
 			mainGroup = 3DBCD86726F198EF00522E3B;
 			packageReferences = (
 				3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */,
-				81422F342A95DA0A00772740 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */,
+				3D39FC032D86BC020030C843 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */,
 			);
 			productRefGroup = 3DBCD87126F198EF00522E3B /* Products */;
 			projectDirPath = "";
@@ -329,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q5CYDAG3B;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q5CYDAG3B;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +396,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3D39FC032D86BC020030C843 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWJavaScriptContext";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 		3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWPrint";
@@ -401,26 +412,22 @@
 				minimumVersion = 1.3.1;
 			};
 		};
-		81422F342A95DA0A00772740 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/William-Weng/WWJavaScriptContext";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3D39FC012D86BB4D0030C843 /* WWJavaScriptContext */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WWJavaScriptContext;
+		};
+		3D39FC042D86BC020030C843 /* WWJavaScriptContext */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D39FC032D86BC020030C843 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */;
+			productName = WWJavaScriptContext;
+		};
 		3DAC9C1827016E78006663C2 /* WWPrint */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */;
 			productName = WWPrint;
-		};
-		81422F352A95DA0A00772740 /* WWJavaScriptContext */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 81422F342A95DA0A00772740 /* XCRemoteSwiftPackageReference "WWJavaScriptContext" */;
-			productName = WWJavaScriptContext;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
